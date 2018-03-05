@@ -1,0 +1,12 @@
+// ArrayTest.java
+
+public class ArrayTest {
+    public static void main( String[] args ) {
+
+	int[] a = new int[7];
+	a[2] = 3;
+	a[5] = 7;
+
+	System.out.println( "The vale of a[2] is: ", + a[2] );
+    } // end method main
+} // end ArrayTest

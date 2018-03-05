@@ -1,0 +1,11 @@
+/* Television Client
+   Ben Carmona
+*/
+
+public class TelevisionClient {
+	public static void main( String [] args ) {
+
+		Television hidef = new Television( "Sony", 1000.0 );
+		System.out.println( hidef.toString() );
+
+		Television lodef = new Television( "

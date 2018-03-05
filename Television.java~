@@ -1,0 +1,25 @@
+// Television.java
+/* constructor that initializes two fields, brand and price, and
+   has methods toString and equals */
+
+public class Telivision {
+	private String brand;
+	private double price;
+
+	private final double MAXPRICE = 1000;
+
+	public Television() {
+		brand = "generic";
+		price = 0.0;
+	} // end method Television
+
+	// accessor methods getBrand and getPrice
+	public String getBrand() {
+		return brand;
+	} // end method getBrand
+
+	public double getPrice() {
+		return price;
+	} // end method getPrice
+
+	

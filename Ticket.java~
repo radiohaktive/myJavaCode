@@ -1,0 +1,23 @@
+// Ticket.java
+// java program that calculates a person's court costs and ticket costs based on how fast they were going, how many tickets they already have and predetermined rates for court costs and speeding violations
+
+import java.util.Scanner;
+
+public class Ticket {
+    public static void main( String[] args ) {
+
+	Scanner input = new Scanner( System.in );
+
+	// prompt for actual speed limit
+	System.out.printf( "What was the speed limit?" ); 
+	speedLimit = input.nextInt();
+
+	// prompt for driver's speed
+	System.out.printf( "How fast was the offender travelling?" );
+	speedActual = input.nextInt();
+
+	// prompt for # of ticket's offender has received
+	System.out.printf( "How many tickets does the offender have?" );
+	tickets = input.nextInt();
+	
+	    

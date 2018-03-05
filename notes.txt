@@ -1,0 +1,75 @@
+5 tabs in one command prompt typically
+
+write an Account class, write an AccountTest class
+
+An extensible language allows for new class declaration as needed.
+
+public & private are *access modifiers*
+
+*void* is a return type that performs a task but will not display information from its caller
+
+parameters and arguments work together
+
+multiple parameters can be listed with commas, delimited by data type, i.e. String, int
+
+* variable is a name that refers to a location that holds a value
+
+* SCANNER CLASS INPUT METHODS
+Method	Description
+nextByte()	Accept a byte
+nextShort()	Accept a short
+nextInt()	Accept an int
+nextLong()	Accept a long
+next()		Accept a single word
+nextLine()	Accept a line of String
+nextBoolean()	Accept a boolean
+nextFloat()	Accept a float
+nextDouble()	Accept a double
+
+* DATA TYPE RETURNS BY OPERAND
+Data type returned	Data type of operands
+double	  Atleast one operand is a double
+float	  Atleast one operand is a float but neither operand is a double
+long	  Atleast one operand is a long but neither operand is a float or a double
+int	  Atleast one operand is an int but neither operand is a float, a double or a long
+
+* printf FORMAT SPECIFIERS
+Format specifier	 Description
+%d		 Displays a decimal (base 10 ) integer
+%f		 Display a floating point value in decimal format
+%e or %E	 Display a floating point number in exponential notation
+%c or %C	 Display characters
+%s or %S	 Display Strings
+%b or %B	 Display boolean values
+%%		 Display a % sign
+
+* DATA TYPES
+Data type	Size in bits	Range (inclusive of both values)	Range ( in exponential notation)
+byte	8	- 128 to 127	- 27 to 27-1
+short	16	- 32 768 to 32 767	- 215 to 215 -1
+int	32	- 2 147 483 648 to 2 147 483 647	- 231 to 231 -1
+long	64	- 9 223 372 036 854 775 808 to 9 223 372 036 854 775 807	- 263 to 263 -1
+float	32	 	-3.4*10-38 to 3.4*1038
+double	64	 	-1.7*10-308 to 1.7*10308
+char	16	0 to 65536	 
+boolean	Not properly defined	true and false	 
+
+*** essential code ***
+public class className {
+    // variables
+    // constructors
+    // methods
+}
+
+### General Syntax of Creating an Object and Assigning its Reference to a Variable of the Corresponding Class Type
+< variable type - the class name > < variable/ object name > = new < call to constructor >; 
+i.e. Student s1 = new Student( );
+
+### Logical Operators
+boolean a = true;
+boolean b = false;
+boolean res1 = a&&b; // false
+boolean res2 = a||b; //true
+boolean res3 = !a; //false
+boolean res4 = !false; // true
+boolean res5 = true&&a; //true 

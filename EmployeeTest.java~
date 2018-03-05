@@ -1,0 +1,243 @@
+// EmployeeTest.java
+
+// import Scanner object
+import java.util.Scanner;
+
+public class EmployeeTest {
+    public static void main( String[] args ) {
+
+	// new Scanner object
+	Scanner input = new Scanner( System.in );
+
+	// create an Employee object and assign it to myEmployee
+	Employee Employee1 = new Employee();
+	Employee Employee2 = new Employee();
+	Employee Employee3 = new Employee();
+	Employee Employee4 = new Employee();
+	Employee Employee5 = new Employee();
+	Employee Employee6 = new Employee();
+	Employee Employee7 = new Employee();
+	Employee Employee8 = new Employee();
+	Employee Employee9 = new Employee();
+	Employee Employee10 = new Employee();
+
+	int theNumber;
+	String theName;
+	double theSalary;
+
+	// EMPLOYEE 1
+	// prompt and read theName
+	System.out.println( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee1.setName( theName );
+	// prompt and read theNumber
+	System.out.println( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee1.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.println( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee1.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	System.out.println();
+
+	// prompt and read theName
+	System.out.println( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee2.setName( theName );	    
+	// prompt and read theNumber
+	System.out.println( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee2.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.println( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee2.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 3
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee3.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee3.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee3.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 4
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee4.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee4.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee4.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 5
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee5.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee5.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee5.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 6
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee6.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee6.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee6.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 7
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee7.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee7.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee7.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 8
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee8.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee8.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee8.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 9
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee9.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee9.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee9.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();
+
+	// EMPLOYEE 10
+	// prompt and read theName
+	System.out.print( "Employee's full name: " );
+	theName = input.nextLine();
+	Employee10.setName( theName );
+	// prompt and read theNumber
+	System.out.print( "Employee number: " );
+	theNumber = input.nextInt();
+	Employee10.setNumber( theNumber );
+	// prompt and read theSalary
+	System.out.print( "Annual salary: " );
+	theSalary = input.nextDouble();
+	Employee10.setSalary( theSalary );
+	// set negative salary to $0.00
+	if( theSalary < 0 ) {
+	    theSalary = 0.0;
+	} // end if
+	// blank line
+	System.out.println();	
+
+	// print results
+	System.out.printf( "Employee1: %s, ID#: %d, Salary: $%.2f%n", Employee1.getName(), Employee1.getNumber(), Employee1.getSalary());
+	System.out.printf( "Employee2: %s, ID#: %d, Salary: $%.2f%n", Employee2.getName(), Employee2.getNumber(), Employee2.getSalary());
+	System.out.printf( "Employee3: %s, ID#: %d, Salary: $%.2f%n", Employee3.getName(), Employee3.getNumber(), Employee3.getSalary());
+	System.out.printf( "Employee4: %s, ID#: %d, Salary: $%.2f%n", Employee4.getName(), Employee4.getNumber(), Employee4.getSalary());
+	System.out.printf( "Employee5: %s, ID#: %d, Salary: $%.2f%n", Employee5.getName(), Employee5.getNumber(), Employee5.getSalary());
+	System.out.printf( "Employee6: %s, ID#: %d, Salary: $%.2f%n", Employee6.getName(), Employee6.getNumber(), Employee6.getSalary());
+	System.out.printf( "Employee7: %s, ID#: %d, Salary: $%.2f%n", Employee7.getName(), Employee7.getNumber(), Employee7.getSalary());
+	System.out.printf( "Employee8: %s, ID#: %d, Salary: $%.2f%n", Employee8.getName(), Employee8.getNumber(), Employee8.getSalary());
+	System.out.printf( "Employee9: %s, ID#: %d, Salary: $%.2f%n", Employee9.getName(), Employee9.getNumber(), Employee9.getSalary());
+	System.out.printf( "Employee10: %s, ID#: %d, Salary: $%.2f%n", Employee10.getName(), Employee10.getNumber(), Employee10.getSalary());	
+	
+    } // end method main
+} // end class EmployeeTest
+
+       
+
+	
